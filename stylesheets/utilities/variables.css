@@ -1,0 +1,12 @@
+
+:root{
+    --primary-dark: #0A111F;
+    --primary-light: #5ADBFF;
+
+    --text-white: white;
+    --text-light: var(--primary-light);
+    --text-dark: var(--primary-dark);
+    --text-gray: gray;
+
+
+}
