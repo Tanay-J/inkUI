@@ -2,6 +2,7 @@
 :root{
     --primary-dark: #0A111F;
     --primary-light: #5ADBFF;
+    --primary-light-shade: #c3e9f5;
 
     --text-white: white;
     --text-light: var(--primary-light);
@@ -14,9 +15,7 @@
     --gray-darker: #7A7A7A;
 
     --success: #5AB045;
-    --success-hover: #7EC66C;
     --danger: #E9353B;
-    --danger-hover: #ED5A5F;
 
 
     --radius-s: 5px;
