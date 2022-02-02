@@ -6,7 +6,21 @@
     --text-white: white;
     --text-light: var(--primary-light);
     --text-dark: var(--primary-dark);
-    --text-gray: gray;
+    --text-gray: hsl(0, 0%, 50%);
+
+    --gray-lighter:#EBEBEB;
+    --gray-light: #CCCCCC;
+    --gray-dark: #ADADAD;
+    --gray-darker: #7A7A7A;
+
+    --success: #5AB045;
+    --success-hover: #7EC66C;
+    --danger: #E9353B;
+    --danger-hover: #ED5A5F;
 
 
+    --radius-s: 5px;
+    --radius-m: 10px;
+    --radius-l: 15px;
+    --radius-rounded: 50%;
 }
