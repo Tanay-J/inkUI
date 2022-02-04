@@ -1,6 +1,13 @@
 .avatar-circle{
     border-radius: 50%;
 }
+.avatar-text{
+    background-color: var(--primary-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-white);
+}
 .avatar-l{
     height: 5rem;
     width: 5rem;
