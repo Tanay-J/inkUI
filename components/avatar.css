@@ -1,0 +1,23 @@
+.avatar-circle{
+    border-radius: 50%;
+}
+.avatar-l{
+    height: 5rem;
+    width: 5rem;
+    font-size: 3rem;
+}
+.avatar-m{
+    height: 4rem;
+    width: 4rem;
+    font-size: 2.5rem;
+}
+.avatar-s{
+    height: 3rem;
+    width: 3rem;
+    font-size: 2rem;
+}
+.avatar-xs{
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.5rem;
+}
