@@ -60,9 +60,14 @@
     background-color: transparent;
     border: 1px solid var(--primary-light);
 }
+.btn-with-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
 .link {
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
     border: none;
     background-color: transparent;
@@ -71,8 +76,6 @@
 .link-secondary{
     color: var(--gray-dark);
 }
-
-
 .btn:hover {
     filter: brightness(95%);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
@@ -81,4 +84,6 @@
     filter: brightness(95%);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
-
+.link:hover{
+    border-bottom: 1px solid;
+}
