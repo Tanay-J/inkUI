@@ -1,0 +1,68 @@
+
+.card-vertical {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    width: 18rem;
+    height: auto;
+}
+.card-horizontal{
+    display: grid;
+    grid-template-columns: 1fr 3fr ;
+    grid-template-rows: 1fr auto;
+    width: 24rem;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-img {
+    max-width: 11rem;
+    height: auto;
+}
+.card-details{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+.sub-title{
+    color: var(--gray-dark);
+    font-size: 12px;
+}
+.overlay-text{
+    position: absolute;
+    bottom: 20%;
+    text-align: center;
+    z-index: 1;
+}
+.badge{
+    position: absolute;
+    left: -10px;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: var(--success);
+    color: var(--text-white);
+}
+.opacity{
+    opacity: 0.3;
+}
+#closableCard i{
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    color: var(--gray-dark);
+}
+#closableCard i:hover{
+    color: var(--danger);
+}
+.hide{
+    display: none;
+}
+.grid-row-span-2{
+    grid-row: span 2;
+}
+.position-rel{
+    position: relative;
+}
+
+
