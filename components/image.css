@@ -1,0 +1,10 @@
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.img-circle{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
