@@ -1,6 +1,5 @@
 .alert{
     padding: 0.7rem 1rem;
-    margin: 1rem 0;
     color: var(--text-white);
     border: 1px solid transparent;
 }
