@@ -1,0 +1,41 @@
+.nav-header{
+    border: 1px solid transparent;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--primary-dark);
+}
+.nav-bg-primary{
+    background-color: var(--primary-light);
+}
+.nav-bg-dark{
+    background-color: var(--primary-dark);
+}
+.brand-logo{
+    border-bottom: 3px solid var(--primary-light);
+}
+.nav-bg-dark .brand-logo{
+    color: var(--text-white);
+}
+.nav-bg-primary .brand-logo{
+    color: var(--primary-dark);
+    border-bottom: 3px solid var(--primary-dark);
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links i{
+    color: var(--primary-dark);
+    text-decoration: none;
+}
+.nav-links i:hover{
+    color: var(--primary-light-shade);
+    text-decoration: none;
+}
+.nav-bg-dark i{
+    color: var(--text-white);
+}
+.nav-bg-dark i:hover{
+    color: var(--text-light);
+}
