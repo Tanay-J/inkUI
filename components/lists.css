@@ -1,0 +1,19 @@
+.list-style-square {
+    list-style-type: square;
+}
+.list-style-circle {
+    list-style-type: circle;
+}
+.list-style-none{
+    list-style: none;
+}
+.list-inline{
+    display: inline-block;
+}
+.lower-roman {
+    list-style-type: lower-roman;
+}
+.lower-alpha {
+    list-style-type: lower-alpha;
+}
+
