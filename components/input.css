@@ -1,0 +1,26 @@
+.input{
+    border: 1px solid var(--gray-light);
+    outline-color: var(--gray-dark);
+}
+.text-area{
+    min-height: 5rem;
+}
+.input.incorrect{
+    border: 1px solid var(--danger);
+    outline-color: var(--danger);
+}
+.input.correct{
+    border: 1px solid var(--success);
+    outline-color: var(--success);
+}
+input:disabled{
+    background-color: var(--gray-light);
+}
+.incorrect+small{
+    display: block;
+    color: var(--danger);
+}
+.correct+small{
+    display: block;
+    color: var(--success);
+}
