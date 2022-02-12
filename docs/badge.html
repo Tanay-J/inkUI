@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <title>Badge - inkUI</title>
+</head>
+<body>
+    <div class="wrapper mx-auto">
+        <header class="header px-m mx-xl">
+            <h1 class="h1 logo">ink</h1>             
+            <nav>             
+                <ul class="nav-links">
+                    <li class="link h6 px-s"><a class="link-dark" href="/docs/installation.html">Docs</a></li>
+                    <li class="link h6 px-s"><a class="link-dark" href="https://github.com/Tanay-J/inkUI">Github</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-container p-l mx-auto my-l">
+            <aside class="main-nav">
+                <header>
+                    <h6 class="h6">Get Started</h6>
+                </header>
+                <a class="comp-link  my-xs" href="/docs/installation.html">Installation</a>
+                <a class="comp-link  my-xs" href="/docs/typography.html">Typography</a>
+                <hr>
+                <header>
+                    <h6 class="h6">Components</h6>
+                </header>
+                <a class="comp-link  my-xs" href="/docs/alert.html">Alert</a>
+                <a class="comp-link  my-xs" href="/docs/avatar.html">Avatar</a>
+                <a class="active  my-xs" href="/docs/badge.html">Badge</a>
+                <a class="comp-link  my-xs" href="/docs/button.html">Button</a>
+                <a class="comp-link  my-xs" href="/docs/cards.html">Card</a>
+                <a class="comp-link  my-xs" href="/docs/image.html">Image</a>
+                <a class="comp-link  my-xs" href="/docs/input.html">Input</a>
+                <a class="comp-link  my-xs" href="/docs/navbar.html">Navbar</a>
+                <a class="comp-link  my-xs" href="/docs/snackbar.html">Snackbar</a>
+            </aside>
+            <section class="main-section px-m">
+                <div>
+                    <h4 class="h4">Badge</h4>
+                    <p class="my-m">
+                        Badges show the count of some adjacent data. It is also used to show current status of a user like online, offline or busy.
+                    </p>
+                </div>
+                <div>
+                    <h6 class="h6 my-m">Number Badges on icons</h6>
+                    <p class="my-m">The icons used here are taken from <a class="link" href="https://fontawesome.com">fontawesome</a></p>
+                    <p class="my-m">You may use <code>font-size</code> classes <code>text-s</code>, <code>text-m</code> etc- to change size of the icons</p>
+                    <div class="example-container my-m mx-auto br-m">
+                        <div class="badge-container p-m my-m mx-auto"> 
+                            <div class="badge">
+                                <i class="fas fa-shopping-cart text-l"></i>
+                                <span class="badge-icon">2</span>    
+                            </div>
+                            <div class="badge">
+                                <i class="fas fa-envelope text-l"></i>
+                                <span class="badge-icon">8</span>    
+                            </div>
+                            <div class="badge">
+                                <i class="fas fa-comment-dots text-l"></i>
+                                <span class="badge-icon">9</span>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-container">
+                        <iframe src="https://www.thiscodeworks.com/embed/6206989b3d90130015398b7b" style="width: 100%; height: 320px;" frameborder="0"></iframe>
+                    </div>
+                </div>
+                <div>
+                    <h6 class="h6 my-m">Status Badge on avatar</h6>
+                    <div class="example-container my-m mx-auto br-m">
+                        <div class="badge-container p-m my-m mx-auto">
+                            <div class="badge">
+                                <img class="avatar-circle avatar-m" src="/assets/female_avatar.svg">
+                                <span class="badge-avatar green"></span>
+                            </div>
+                            <div class="badge">
+                                <img class="avatar-circle avatar-m" src="/assets/male_avatar.svg">
+                                <span class="badge-avatar red"></span>
+                            </div>
+                            <div class="badge">
+                                <img class="avatar-circle avatar-m" src="/assets/female_avatar.svg">
+                                <span class="badge-avatar gray"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-container">
+                        <iframe src="https://www.thiscodeworks.com/embed/620699e33d90130015398b7d" style="width: 100%; height: 320px;" frameborder="0"></iframe>
+                    </div>
+                </div>
+                
+            </section>
+        </main>
+    </div>
+</body>
+</html>
