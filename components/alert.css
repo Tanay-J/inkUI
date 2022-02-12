@@ -1,15 +1,11 @@
 .alert{
-    width: 100%;
     padding: 0.7rem 1rem;
-    margin: 1rem 0;
-    border-radius: 4px;
     color: var(--text-white);
     border: 1px solid transparent;
 }
 .alert.primary{
     background-color: var(--primary-light);
 }
-
 .alert.secondary{
     background-color: var(--primary-dark);
 }
@@ -23,7 +19,6 @@
     color: var(--primary-light);
     border: 1px solid var(--primary-light);
 }
-
 .alert.secondary-outline{
     color: var(--gray-dark);
     border: 1px solid var(--gray-dark);
@@ -36,3 +31,4 @@
     color: var(--danger);
     border: 1px solid var(--danger);
 }
+
