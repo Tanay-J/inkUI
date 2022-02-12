@@ -8,201 +8,202 @@
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-    <title>Card : inkUI</title>
+    <title>Card - inkUI</title>
 </head>
 <body>
-    <header class="header px-m mx-xl">
-        <h1 class="h1 logo">ink</h1>             
-        <nav>             
-            <ul class="nav-links">
-                <li class="link h6 px-s"><a>Docs</a></li>
-                <li class="link h6 px-s"><a class="link" href="https://github.com/Tanay-J/inkUI">Github</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="wrapper mx-auto">
+        <header class="header px-m mx-xl">
+            <h1 class="h1 logo">ink</h1>             
+            <nav>             
+                <ul class="nav-links">
+                    <li class="link h6 px-s"><a class="link-dark" href="/docs/installation.html">Docs</a></li>
+                    <li class="link h6 px-s"><a class="link-dark" href="https://github.com/Tanay-J/inkUI">Github</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main class="main-container p-l mx-auto my-l">
-        <aside class="main-nav">
-            <header>
-                <h6 class="h6  my-xs">Get Started</h6>
-            </header>
-            <p class="comp-link  my-xs">Installation</p>
-            <p class="comp-link  my-xs" href="">Typography</p>    
-            <hr>
-            <header>
-                <h6 class="h6  my-xs">Components</h6>
-            </header>
-            <p class="comp-link  my-xs" href="">Alert</p>
-            <p class="comp-link  my-xs" href="">Avatar</p>
-            <p class="comp-link  my-xs" href="">Badge</p>
-            <p class="comp-link  my-xs" href="">Button</p>
-            <p class="active  my-xs" href="">Card</p>
-            <p class="comp-link  my-xs" href="">Image</p>
-            <p class="comp-link  my-xs" href="">Input</p>
-            <a class="comp-link  my-xs" href="">Navbar</a>
-            <a class="comp-link  my-xs" href="">Snackbar</a>
-        </aside>
-        <section class="main-section px-m">
-            <div>
-                <h4 class="h4">Card</h4>
-                <p>
-                    Card layouts are a common way of displaying content
-                </p>
-            </div>
-            <!-- Vertical card -->
-            <div>
-                <h6 class="h6 my-m">Vertical Card</h6>
-                <p></p>
-                <section class="card-vertical card-shadow br-m p-s mx-auto my-m">
-                    <div class="card-img mx-auto px-s">
-                        <img src="/assets/billy-summers.webp"
-                        />
-                    </div>
-                    <div class="card-details">
-                        <div class="text-xs font-light ">Billy Summers</div>
-                        <div class="sub-title">English, Hardcover, Stephen King</div>
-                        <div class="font-bold">Rs. 399</div>
-                    </div>
-                    <div class="card-props">
-                        <button class="btn btn-primary">Add to Cart</button>
-                        <button class="btn btn-outline outline-primary mx-xs">Save for Later</button>
-                    </div>
-                </section>
-                <iframe src="https://www.thiscodeworks.com/embed/62066c3ca4f5770015a88569" style="width: 100%; height: auto;" frameborder="0"></iframe>
-            </div>
-            <!-- Horizontal card -->
-            <div>
-                <h6 class="h6 my-m">Horizontal Card</h6>
-                <section class="card-horizontal card-shadow p-xs mx-auto my-m">
-                    <div class="grid-row-span-2 card-img">
-                        <img src="/assets/billy-summers.webp"
-                        />
-                    </div>
-                    <div class="card-details mx-m">
-                      <div class="text-xs font-light ">Billy Summers</div>
-                      <div class="sub-title ">English, Hardcover, Stephen King</div>
-                      <div class="font-bold">Rs. 399</div>
-                      <div class="card-props my-s">
-                        <button class="btn btn-primary">Add to Cart</button>
-                        <button class="btn btn-outline outline-primary mx-xs">Save for Later</button>
-                      </div>
-                    </div>
-                </section>
-                <iframe src="https://www.thiscodeworks.com/embed/62066d73a4f5770015a8856a" style="width: 100%; height: auto;" frameborder="0"></iframe>
-            </div>
-            <!-- Card with description -->
-            <div>
-                <h6 class="h6 my-m">Vertical Card with text description</h6>
-                <section class="card-vertical card-shadow p-s mx-auto my-m">
-                    <div class="card-img mx-auto">
-                        <img src="/assets/billy-summers.webp"
-                        />
-                    </div>
-                    <div class="card-details">
-                      <div class="text-xs font-light ">Billy Summers</div>
-                      <div class="sub-title ">English, Hardcover, Stephen King</div>
-                      <div class="font-bold">Rs. 399</div>
-                      <div class="font-light my-xs"><small>Billy Summers is a man in a room with a gun. He's a killer for hire and the best in the business. But he'll do the job only if the target is a truly bad guy. And now Billy wants out. But first there is one last hit.</small></div>
-                    </div>
-                    <div class="card-props">
-                        <button class="btn btn-primary">Add to Cart</button>
-                        <button class="btn btn-outline outline-primary mx-xs">Save for Later</button>
-                    </div>
-                  </section>
-                  <iframe src="https://www.thiscodeworks.com/embed/62066e57a4f5770015a8856e" style="width: 100%; height: auto;" frameborder="0"></iframe>
-            </div>
-            <!-- Card with badge -->
-            <div>
-                <h6 class="h6 my-m">Vertical Card with a badge</h6>
-                <section class="card-vertical card-shadow position-rel p-s mx-auto my-m">
-                    <small class="card-badge font-bold px-xs">Best Seller</small> 
-                    <div class="card-img mx-auto px-s">
-                         <img src="/assets/billy-summers.webp"
-                         />
-                     </div>
-                     <div class="card-details">
-                       <div class="text-xs font-light ">Billy Summers</div>
-                       <div class="sub-title ">English, Hardcover, Stephen King</div>
-                       <div class="font-bold">Rs. 399</div>
-                     </div>
-                     <div class="card-props">
-                         <button class="btn btn-primary">Add to Cart</button>
-                         <button class="btn btn-outline outline-primary mx-xs">Save for Later</button>
-                     </div>
-                </section>
-                <iframe src="https://www.thiscodeworks.com/embed/62066ec6a4f5770015a8856f" style="width: 100%; height: auto;" frameborder="0"></iframe>  
-            </div>
-            <!-- Card with text overlay -->
-            <div>
-                <!--add width:100% to alert class  -->
-                <h6 class="h6 my-m">Vertical Card with a text overlay</h6>
-                <section class="card-vertical card-shadow position-rel mx-auto my-m">
-                    <strong class="overlay-text alert secondary">Out of Stock</strong>
-                    <div class="opacity p-s mx-auto">
-                      <div class="card-img mx-auto">
-                        <img src="/assets/billy-summers.webp"
-                        />
-                      </div>
-                      <div class="card-details">
-                        <div class="text-xs font-light ">Billy Summers</div>
-                        <div class="sub-title ">English, Hardcover, Stephen King</div>
-                        <div class="font-bold">Rs. 399</div>
-                      </div>
-                      <div class="card-props">
-                        <button class="btn btn-primary">Add to Cart</button>
-                        <button class="btn btn-outline outline-primary mx-xs">Save for Later</button>
-                      </div>
-                    </div>
-                </section>
-                <iframe src="https://www.thiscodeworks.com/embed/62067007a4f5770015a88572" style="width: 100%; height: auto;" frameborder="0"></iframe>
-            </div>
-            <!-- Dismissable card -->
-            <div>
-                <h6 class="h6 my-m">Dismissable Card</h6> 
-                <section id="closableCard" class="card-vertical card-shadow p-s mx-auto my-m position-rel">
-                    <i class="fas fa-times"></i>
-                    <div class="card-img mx-auto px-s">
-                        <img src="/assets/billy-summers.webp"
-                        />
-                    </div>
-                    <div class="card-details">
-                        <div class="text-xs font-light ">Billy Summers</div>
-                        <div class="sub-title ">English, Hardcover, Stephen King</div>
-                        <div class="font-bold">Rs. 399</div>
-                    </div>
-                    <div class="card-props">
-                        <button class="btn btn-primary">Add to Cart</button>
-                        <button class="btn btn-outline outline-primary mx-xs">Save for Later</button>
-                    </div>
-                </section>
-                <div class="code-container">
-                    <button id="showBtn" class="btn btn-outline outline-secondary my-m hide">Show</button>
-                    <iframe src="https://www.thiscodeworks.com/embed/620670c6a4f5770015a88573" style="width: 100%; height: auto;" frameborder="0"></iframe>         
+        <main class="main-container p-l mx-auto my-l">
+            <aside class="main-nav">
+                <header>
+                    <h6 class="h6">Get Started</h6>
+                </header>
+                <a class="comp-link  my-xs" href="/docs/installation.html">Installation</a>
+                <a class="comp-link  my-xs" href="/docs/typography.html">Typography</a>
+                <hr>
+                <header>
+                    <h6 class="h6">Components</h6>
+                </header>
+                <a class="comp-link  my-xs" href="/docs/alert.html">Alert</a>
+                <a class="comp-link  my-xs" href="/docs/avatar.html">Avatar</a>
+                <a class="comp-link  my-xs" href="/docs/badge.html">Badge</a>
+                <a class="comp-link  my-xs" href="/docs/button.html">Button</a>
+                <a class="active  my-xs" href="/docs/cards.html">Card</a>
+                <a class="comp-link  my-xs" href="/docs/image.html">Image</a>
+                <a class="comp-link  my-xs" href="/docs/input.html">Input</a>
+                <a class="comp-link  my-xs" href="/docs/navbar.html">Navbar</a>
+                <a class="comp-link  my-xs" href="/docs/snackbar.html">Snackbar</a>
+            </aside>
+            <section class="main-section px-m">
+                <div>
+                    <h4 class="h4">Card</h4>
+                    <p class="my-s">
+                        Card layouts are a common way of displaying related content grouped together.
+                    </p>
                 </div>
-            </div>
-            <!-- Text only card -->
-            <div>
-                <h6 class="h6 my-m">Text only Card</h6> 
-                <section class="card-vertical card-shadow p-s mx-auto my-m">
-                    <div class="card-details">
-                      <div class="text-xs font-light ">Billy Summers</div>
-                      <div class="sub-title ">English, Hardcover, Stephen King</div>
-                      <div class="font-bold">Rs. 399</div>
-                      <div class="font-light my-xs"><small>Billy Summers is a man in a room with a gun. He's a killer for hire and the best in the business. But he'll do the job only if the target is a truly bad guy. And now Billy wants out. But first there is one last hit.</small></div>
+                <!-- Vertical card -->
+                <div>
+                    <h6 class="h6 my-m">Vertical Card</h6>
+                    <p>Vertical card has width of <code>18rem</code></p>
+                    <section class="card-vertical card-shadow br-m p-s mx-auto my-m">
+                        <div class="card-img mx-auto px-s">
+                            <img src="/assets/billy-summers.webp"
+                            />
+                        </div>
+                        <div class="card-details">
+                            <div class="text-xs font-light ">Billy Summers</div>
+                            <div class="sub-title">English, Hardcover, Stephen King</div>
+                            <div class="font-bold">Rs. 399</div>
+                        </div>
+                        <div class="card-props">
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-outline outline-primary mx-xs">Save for Later</button>
+                        </div>
+                    </section>
+                    <iframe src="https://www.thiscodeworks.com/embed/62066c3ca4f5770015a88569" style="width: 100%; height: auto;" frameborder="0"></iframe>
+                </div>
+                <!-- Horizontal card -->
+                <div>
+                    <h6 class="h6 my-m">Horizontal Card</h6>
+                    <p>Horizontal card has width of <code>24rem</code></p>
+                    <section class="card-horizontal card-shadow p-xs mx-auto my-m">
+                        <div class="grid-row-span-2 card-img">
+                            <img src="/assets/billy-summers.webp"
+                            />
+                        </div>
+                        <div class="card-details mx-m">
+                        <div class="text-xs font-light ">Billy Summers</div>
+                        <div class="sub-title ">English, Hardcover, Stephen King</div>
+                        <div class="font-bold">Rs. 399</div>
+                        <div class="card-props my-s">
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-outline outline-primary mx-xs">Save for Later</button>
+                        </div>
+                        </div>
+                    </section>
+                    <iframe src="https://www.thiscodeworks.com/embed/62066d73a4f5770015a8856a" style="width: 100%; height: auto;" frameborder="0"></iframe>
+                </div>
+                <!-- Card with description -->
+                <div>
+                    <h6 class="h6 my-m">Vertical Card with text description</h6>
+                    <section class="card-vertical card-shadow p-s mx-auto my-m">
+                        <div class="card-img mx-auto">
+                            <img src="/assets/billy-summers.webp"
+                            />
+                        </div>
+                        <div class="card-details">
+                        <div class="text-xs font-light ">Billy Summers</div>
+                        <div class="sub-title ">English, Hardcover, Stephen King</div>
+                        <div class="font-bold">Rs. 399</div>
+                        <div class="font-light my-xs"><small>Billy Summers is a man in a room with a gun. He's a killer for hire and the best in the business. But he'll do the job only if the target is a truly bad guy. And now Billy wants out. But first there is one last hit.</small></div>
+                        </div>
+                        <div class="card-props">
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-outline outline-primary mx-xs">Save for Later</button>
+                        </div>
+                    </section>
+                    <iframe src="https://www.thiscodeworks.com/embed/62066e57a4f5770015a8856e" style="width: 100%; height: auto;" frameborder="0"></iframe>
+                </div>
+                <!-- Card with badge -->
+                <div>
+                    <h6 class="h6 my-m">Vertical Card with a badge</h6>
+                    <section class="card-vertical card-shadow position-rel p-s mx-auto my-m">
+                        <small class="card-badge font-bold px-xs">Best Seller</small> 
+                        <div class="card-img mx-auto px-s">
+                            <img src="/assets/billy-summers.webp"
+                            />
+                        </div>
+                        <div class="card-details">
+                        <div class="text-xs font-light ">Billy Summers</div>
+                        <div class="sub-title ">English, Hardcover, Stephen King</div>
+                        <div class="font-bold">Rs. 399</div>
+                        </div>
+                        <div class="card-props">
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-outline outline-primary mx-xs">Save for Later</button>
+                        </div>
+                    </section>
+                    <iframe src="https://www.thiscodeworks.com/embed/62066ec6a4f5770015a8856f" style="width: 100%; height: auto;" frameborder="0"></iframe>  
+                </div>
+                <!-- Card with text overlay -->
+                <div>
+                    <h6 class="h6 my-m">Vertical Card with a text overlay</h6>
+                    <section class="card-vertical card-shadow position-rel mx-auto my-m">
+                        <strong class="overlay-text alert secondary">Out of Stock</strong>
+                        <div class="opacity p-s mx-auto">
+                        <div class="card-img mx-auto">
+                            <img src="/assets/billy-summers.webp"
+                            />
+                        </div>
+                        <div class="card-details">
+                            <div class="text-xs font-light ">Billy Summers</div>
+                            <div class="sub-title ">English, Hardcover, Stephen King</div>
+                            <div class="font-bold">Rs. 399</div>
+                        </div>
+                        <div class="card-props">
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-outline outline-primary mx-xs">Save for Later</button>
+                        </div>
+                        </div>
+                    </section>
+                    <iframe src="https://www.thiscodeworks.com/embed/62067007a4f5770015a88572" style="width: 100%; height: auto;" frameborder="0"></iframe>
+                </div>
+                <!-- Dismissable card -->
+                <div>
+                    <h6 class="h6 my-m">Dismissable Card</h6> 
+                    <section id="closableCard" class="card-vertical card-shadow p-s mx-auto my-m position-rel">
+                        <i class="fas fa-times"></i>
+                        <div class="card-img mx-auto px-s">
+                            <img src="/assets/billy-summers.webp"
+                            />
+                        </div>
+                        <div class="card-details">
+                            <div class="text-xs font-light ">Billy Summers</div>
+                            <div class="sub-title ">English, Hardcover, Stephen King</div>
+                            <div class="font-bold">Rs. 399</div>
+                        </div>
+                        <div class="card-props">
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-outline outline-primary mx-xs">Save for Later</button>
+                        </div>
+                    </section>
+                    <div class="code-container">
+                        <button id="showBtn" class="btn btn-outline outline-secondary my-m hide">Show</button>
+                        <iframe src="https://www.thiscodeworks.com/embed/620670c6a4f5770015a88573" style="width: 100%; height: auto;" frameborder="0"></iframe>         
                     </div>
-                    <div class="card-props">
-                        <button class="btn btn-primary">Add to Cart</button>
-                        <button class="btn btn-outline outline-primary mx-xs">Save for Later</button>
-                    </div>
-                </section>
-                <div class="code-container">
-                    <iframe src="https://www.thiscodeworks.com/embed/620671a2a4f5770015a88576" style="width: 100%; height: auto;" frameborder="0"></iframe>
-                </div> 
-            </div>
+                </div>
+                <!-- Text only card -->
+                <div>
+                    <h6 class="h6 my-m">Text only Card</h6> 
+                    <section class="card-vertical card-shadow p-s mx-auto my-m">
+                        <div class="card-details">
+                        <div class="text-xs font-light ">Billy Summers</div>
+                        <div class="sub-title ">English, Hardcover, Stephen King</div>
+                        <div class="font-bold">Rs. 399</div>
+                        <div class="font-light my-xs"><small>Billy Summers is a man in a room with a gun. He's a killer for hire and the best in the business. But he'll do the job only if the target is a truly bad guy. And now Billy wants out. But first there is one last hit.</small></div>
+                        </div>
+                        <div class="card-props">
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-outline outline-primary mx-xs">Save for Later</button>
+                        </div>
+                    </section>
+                    <div class="code-container">
+                        <iframe src="https://www.thiscodeworks.com/embed/620671a2a4f5770015a88576" style="width: 100%; height: auto;" frameborder="0"></iframe>
+                    </div> 
+                </div>
 
-        </section>
-    </main>
-
+            </section>
+        </main>
+    </div>
 </body>
 <script src="/components/script.js"></script>
 </html>

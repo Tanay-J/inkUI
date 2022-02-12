@@ -5,76 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
-    <title>inkUI : Input</title>
+    <title>Input - inkUI</title>
 </head>
 <body>
-    <header class="header px-m mx-xl">
-        <h1 class="h1 logo">ink</h1>             
-        <nav>             
-            <ul class="nav-links">
-                <li class="link h6 px-s"><a>Docs</a></li>
-                <li class="link h6 px-s"><a class="link" href="https://github.com/Tanay-J/inkUI">Github</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="wrapper mx-auto">
+        <header class="header px-m mx-xl">
+            <h1 class="h1 logo">ink</h1>             
+            <nav>             
+                <ul class="nav-links">
+                    <li class="link h6 px-s"><a class="link-dark" href="/docs/installation.html">Docs</a></li>
+                    <li class="link h6 px-s"><a class="link-dark" href="https://github.com/Tanay-J/inkUI">Github</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main class="main-container p-l mx-auto my-l">
-        <aside class="main-nav">
-            <header>
-                <h6 class="h6">Get Started</h6>
-            </header>
-            <a class="comp-link  my-xs">Installation</a>
-            <a class="comp-link  my-xs" href="">Typography</a>
-            <hr>
-            <a class="comp-link  my-xs" href="">Alert</a>
-            <a class="comp-link  my-xs" href="/docs/avatar.html">Avatar</a>
-            <a class="comp-link  my-xs" href="">Badge</a>
-            <a class="comp-link  my-xs" href="/docs/button.html">Button</a>
-            <a class="comp-link  my-xs" href="">Card</a>
-            <a class="comp-link my-xs" href="">Image</a>
-            <a class="active my-xs" href="">Input</a>
-            <a class="comp-link  my-xs" href="">Navbar</a>
-            <a class="comp-link  my-xs" href="">Snackbar</a>
-        </aside>
-        <section class="main-section px-m">
-            <div>
-                <h4 class="h4">Input</h4>
-            </div>
-            <div>
-                <div class="my-m">
-                    <label>
-                        <p>Username</p>
-                        <input class="input p-xs br-s" placeholder="Username">
-                    </label>
-                    <label>
-                        <p>Password</p>
-                        <input class="input p-xs br-s" type="password" placeholder="Password">
-                    </label>
-                    <label>            
-                        <p>Text Area</p>
-                        <textarea class="input text-area br-s"></textarea>
-                    </label>
-                    <label>
-                        <p>Disabled Input</p>
-                        <input class="input p-xs br-s" disabled>
-                    </label>
-                    <label>
-                        <p>Incorrect Data</p>
-                        <input class="input incorrect p-xs br-s">
-                        <small>Try again</small>
-                    </label>            
-                    <label>
-                        <p>Correct Data</p>
-                        <input class="input correct p-xs br-s">
-                        <small>Validated</small>
-                    </label>
+        <main class="main-container p-l mx-auto my-l">
+            <aside class="main-nav">
+                <header>
+                    <h6 class="h6">Get Started</h6>
+                </header>
+                <a class="comp-link  my-xs" href="/docs/installation.html">Installation</a>
+                <a class="comp-link  my-xs" href="/docs/typography.html">Typography</a>
+                <hr>
+                <a class="comp-link  my-xs" href="/docs/alert.html">Alert</a>
+                <a class="comp-link  my-xs" href="/docs/avatar.html">Avatar</a>
+                <a class="comp-link  my-xs" href="/docs/badge.html">Badge</a>
+                <a class="comp-link  my-xs" href="/docs/button.html">Button</a>
+                <a class="comp-link  my-xs" href="/docs/cards.html">Card</a>
+                <a class="comp-link my-xs" href="/docs/image.html">Image</a>
+                <a class="active  my-xs" href="/docs/input.html">Input</a>
+                <a class="comp-link  my-xs" href="/docs/navbar.html">Navbar</a>
+                <a class="comp-link  my-xs" href="/docs/snackbar.html">Snackbar</a>
+            </aside>
+            <section class="main-section px-m">
+                <div>
+                    <h4 class="h4">Input</h4>
+                    <p class="my-s">
+                        Inputs are important components through which user interacts with the web app. They take data from user and make it available for further processing.
+                    </p>
                 </div>
-                <div class="code-container">
-                    <iframe src="https://www.thiscodeworks.com/embed/6206926e3d90130015398b68" style="width: 100%; height: 424px;" frameborder="0"></iframe>
-                </div>
-            </div>            
-        </section>
-    </main>
-
+                <div>
+                    <div class="example-container-no-flex my-m br-s p-m">
+                        <label class="text-center">
+                            <p>Username</p>
+                            <input class="input p-xs br-s" placeholder="Username">
+                        </label>
+                        <label>
+                            <p>Password</p>
+                            <input class="input p-xs br-s" type="password" placeholder="Password">
+                        </label>
+                        <label>            
+                            <p>Text Area</p>
+                            <textarea class="input text-area br-s"></textarea>
+                        </label>
+                        <label>
+                            <p>Disabled Input</p>
+                            <input class="input p-xs br-s" disabled>
+                        </label>
+                        <label>
+                            <p>Incorrect Data</p>
+                            <input class="input incorrect p-xs br-s">
+                            <small>Try again</small>
+                        </label>            
+                        <label>
+                            <p>Correct Data</p>
+                            <input class="input correct p-xs br-s">
+                            <small>Validated</small>
+                        </label>
+                    </div>
+                    <div class="code-container">
+                        <iframe src="https://www.thiscodeworks.com/embed/6206926e3d90130015398b68" style="width: 100%; height: 424px;" frameborder="0"></iframe>
+                    </div>
+                </div>            
+            </section>
+        </main>
+    </div>
 </body>
 </html>
