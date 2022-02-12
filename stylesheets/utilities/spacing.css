@@ -1,0 +1,176 @@
+/* border-radius */
+.br-s {
+    border-radius: 4px;
+}
+
+.br-m {
+    border-radius: 8px;
+}
+
+.br-l {
+    border-radius: 1rem;
+}
+
+.br-circle {
+    border-radius: 50%;
+}
+
+/*margins */
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.m-xs {
+    margin: 8px;
+}
+
+.m-s {
+    margin: 1rem;
+}
+
+.m-m {
+    margin: 1.5rem;
+}
+
+.m-l {
+    margin: 2rem;
+}
+
+.m-xl {
+    margin: 3rem;
+}
+
+/* vertical margin */
+.my-xs {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.my-s {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.my-m {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.my-l {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.my-xl {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/*horizontal margins */
+.mx-xs {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.mx-s {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.mx-m {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.mx-l {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.mx-xl {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+/*padding */
+
+.p-xs {
+    padding: 8px;
+}
+
+.p-s {
+    padding: 1rem;
+}
+
+.p-m {
+    padding: 1.5rem;
+}
+
+.p-l {
+    padding: 2rem;
+}
+
+.p-xl {
+    padding: 3rem;
+}
+
+/*vertical padding  */
+.py-xs {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.py-s {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.py-m {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.py-l {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.py-xl {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* horizontal padding */
+.px-xs {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.px-s {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.px-m {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.px-l {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.px-xl {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}

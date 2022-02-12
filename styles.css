@@ -1,0 +1,24 @@
+@import url(/stylesheets/base/reset.css);
+@import url(/stylesheets/utilities/variables.css);
+@import url(/stylesheets/utilities/typography.css);
+@import url(/stylesheets/utilities/spacing.css);
+@import url(/stylesheets/layout/navbar.css);
+@import url(/components/button.css);
+@import url(/components/card.css);
+@import url(/components/alert.css);
+@import url(/components/avatar.css);
+@import url(/components/badge.css);
+@import url(/components/avatar.css);
+@import url(/components/image.css);
+@import url(/components/input.css);
+@import url(/stylesheets/layout/main.css);
+@import url(/stylesheets/layout/footer.css);
+@import url(/components/navigation.css);
+@import url(/components/ratings.css);
+@import url(/components/lists.css);
+@import url(/components/snackbar.css);
+
+body{
+    background-color: var(--bg-offwhite);
+}
+
