@@ -23,6 +23,9 @@
 .h6,.text-xs{
     font-size:1.25rem;
 }
+p{
+    margin: 0;
+}
 .text-xxs{
     font-size: 10px;
 }
@@ -47,4 +50,6 @@
 .text-center{
     text-align: center;
 }
-
+.text-underline{
+    text-decoration: underline;
+}
