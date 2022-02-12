@@ -1,0 +1,27 @@
+
+
+.header{
+    /* width: 85%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--primary-dark);
+}
+
+.logo{
+    border-bottom: 3px solid var(--primary-light);
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline;
+    color: var(--primary-dark);
+    text-decoration: none;
+}
+.heading{
+    width: 50%;
+}
+.sub-heading{
+    width: 60%;
+}
