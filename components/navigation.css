@@ -25,17 +25,17 @@
 .nav-links{
     list-style: none;
 }
-.nav-links i{
+.nav-links .nav-icons{
     color: var(--primary-dark);
     text-decoration: none;
 }
-.nav-links i:hover{
+.nav-links .nav-icons:hover{
     color: var(--primary-light-shade);
     text-decoration: none;
 }
-.nav-bg-dark i{
+.nav-bg-dark .nav-icons{
     color: var(--text-white);
 }
-.nav-bg-dark i:hover{
+.nav-bg-dark .nav-icons:hover{
     color: var(--text-light);
 }
