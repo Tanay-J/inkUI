@@ -1,6 +1,8 @@
 
 # ink UI
 
+![image](https://user-images.githubusercontent.com/33786522/154935393-82e7e2a7-2029-479b-81b7-946d78552df4.png)
+
 ink UI is a component library created to improve the experience of making web apps. It provides you with various components and utilities which makes designing projects easy and quick.
 
 
@@ -8,7 +10,7 @@ ink UI is a component library created to improve the experience of making web ap
 
 ## Live Link
 
-[inkui.netlify.app](inkui.netlify.app)
+[inkui.netlify.app](https://inkui.netlify.app)
 
 
 ## Features
@@ -22,7 +24,9 @@ ink UI is a component library created to improve the experience of making web ap
 
 Simply copy and paste the following link in the ```head``` tag of your html file, above all stylesheets
 
-```<link rel="stylesheet" href="https://inkui.netlify.app/styles.css">```
+```
+<link rel="stylesheet" href="https://inkui.netlify.app/styles.css">
+```
 
 ## Component List and Documentation
 
