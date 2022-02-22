@@ -37,6 +37,7 @@ Simply copy and paste the following link in the ```head``` tag of your html file
 - [Card](https://inkui.netlify.app/docs/card.html)
 - [Image](https://inkui.netlify.app/docs/image.html)
 - [Input](https://inkui.netlify.app/docs/input.html)
+- [List](https://inkui.netlify.app/docs/list.html)
 - [Navbar](https://inkui.netlify.app/docs/navbar.html)
 - [Snackbar](https://inkui.netlify.app/docs/snackbar.html)
 - [Typography](https://inkui.netlify.app/docs/typography.html)
