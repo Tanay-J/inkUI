@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+
     <link rel="stylesheet" href="/styles.css" />
-    <title>Modal - inkUI</title>
+    <title>Rating - inkUI</title>
   </head>
   <body>
     <div class="wrapper mx-auto">
@@ -46,46 +51,61 @@
           <a class="comp-link my-xs" href="/docs/image.html">Image</a>
           <a class="comp-link my-xs" href="/docs/input.html">Input</a>
           <a class="comp-link my-xs" href="/docs/list.html">List</a>
-          <a class="active my-xs" href="/docs/modal.html">Modal</a>
+          <a class="comp-link my-xs" href="/docs/modal.html">Modal</a>
           <a class="comp-link my-xs" href="/docs/navbar.html">Navbar</a>
-          <a class="comp-link  my-xs" href="/docs/rating.html">Rating</a>
+          <a class="active my-xs" href="/docs/rating.html">Rating</a>
           <a class="comp-link my-xs" href="/docs/snackbar.html">Snackbar</a>
         </aside>
         <section class="main-section px-m">
           <div>
-            <h4 class="h4">Modal</h4>
+            <h4 class="h4">Rating</h4>
             <p class="my-s">
-              Modal is a dialog box or popup window that is used to provide
-              important information to the user or prompt user to take necessary
-              actions
+              Star rating is a used to indicate general perception of the given
+              product
             </p>
           </div>
           <div>
-            <div class="example-container text-center my-m">
-              <button class="btn btn-primary my-m" id="displayModal">
-                Click Here
-              </button>
-              <div class="modal-wrapper hide">
-                <div class="modal-container p-m br-s text-left mx-auto my-l">
-                  <h3>Modal Header</h3>
-
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-                  <button class="btn btn-primary my-xs" id="saveModal">
-                    SAVE
-                  </button>
-                  <button class="btn my-xs" id="cancelModal">CANCEL</button>
-                </div>
+            <h6 class="h6 my-m">Star Rating</h6>
+            <p>To take user's feedback about the product</p>
+            <div class="example-container my-m mx-auto p-m br-m">
+              <div class="rating-container text-s">
+                <input type="radio" name="rate" id="1star" />
+                <label for="1star"></label>
+                <input type="radio" name="rate" id="2star" />
+                <label for="2star"></label>
+                <input type="radio" name="rate" id="3star" />
+                <label for="3star"></label>
+                <input type="radio" name="rate" id="4star" />
+                <label for="4star"></label>
+                <input type="radio" name="rate" id="5star" />
+                <label for="5star"></label>
               </div>
             </div>
             <div class="code-container">
               <iframe
-                src="https://www.thiscodeworks.com/embed/623dc5c32ef8dc0015ef5e62"
-                style="width: 100%; height: 294px"
+                src="https://www.thiscodeworks.com/embed/623dfac02ef8dc0015ef5e73"
+                style="width: 100%; height: 242px"
+                frameborder="0"
+              ></iframe>
+            </div>
+          </div>
+          <div>
+            <h6 class="h6 my-m">Rating Badge</h6>
+            <p>To show product rating on product card</p>
+            <div class="example-container my-m mx-auto p-m br-m">
+              <div class="rating-container">
+                <small class="text-success">(179 ratings)</small>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="code-container">
+              <iframe
+                src="https://www.thiscodeworks.com/embed/623dfafc2ef8dc0015ef5e74"
+                style="width: 100%; height: 177px"
                 frameborder="0"
               ></iframe>
             </div>
@@ -94,5 +114,4 @@
       </main>
     </div>
   </body>
-  <script src="/docs/modal.js"></script>
 </html>

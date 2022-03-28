@@ -1,0 +1,21 @@
+.rating-container {
+  display: flex;
+  gap: 4px;
+  flex-direction: row-reverse;
+  color: var(--primary-light);
+}
+.rating-container input {
+  display: none;
+}
+
+.rating-container label {
+  color: var(--primary-light);
+}
+
+.rating-container label::before {
+  content: "\2606";
+}
+
+.rating-container input:checked ~ label::before {
+  content: "\2605";
+}
