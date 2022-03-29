@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <title>Grid - inkUI</title>
+  </head>
+  <body>
+    <div class="wrapper mx-auto">
+      <header class="header px-m mx-xl">
+        <h1 class="h1 logo">ink</h1>
+        <nav>
+          <ul class="nav-links">
+            <li class="link h6 px-s">
+              <a class="link-dark" href="/docs/installation.html">Docs</a>
+            </li>
+            <li class="link h6 px-s">
+              <a class="link-dark" href="https://github.com/Tanay-J/inkUI"
+                >Github</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main-container p-l mx-auto my-l">
+        <aside class="main-nav">
+          <header>
+            <h6 class="h6">Get Started</h6>
+          </header>
+          <a class="comp-link my-xs" href="/docs/installation.html"
+            >Installation</a
+          >
+          <a class="comp-link my-xs" href="/docs/typography.html">Typography</a>
+          <hr />
+          <header>
+            <h6 class="h6">Components</h6>
+          </header>
+          <a class="comp-link my-xs" href="/docs/alert.html">Alert</a>
+          <a class="comp-link my-xs" href="/docs/avatar.html">Avatar</a>
+          <a class="comp-link my-xs" href="/docs/badge.html">Badge</a>
+          <a class="comp-link my-xs" href="/docs/button.html">Button</a>
+          <a class="comp-link my-xs" href="/docs/cards.html">Card</a>
+          <a class="active my-xs" href="/docs/grid.html">Grid</a>
+          <a class="comp-link my-xs" href="/docs/image.html">Image</a>
+          <a class="comp-link my-xs" href="/docs/input.html">Input</a>
+          <a class="comp-link my-xs" href="/docs/list.html">List</a>
+          <a class="comp-link my-xs" href="/docs/modal.html">Modal</a>
+          <a class="comp-link my-xs" href="/docs/navbar.html">Navbar</a>
+          <a class="comp-link my-xs" href="/docs/rating.html">Rating</a>
+          <a class="comp-link my-xs" href="/docs/snackbar.html">Snackbar</a>
+        </aside>
+        <section class="main-section px-m">
+          <div>
+            <h4 class="h4">Grid</h4>
+            <p class="my-s">
+              Grid Layout is a two-dimensional layout system that lays content
+              out in rows and columns
+            </p>
+            <p>
+              Grids in <strong>inkUI</strong> can be implemented by using base
+              class <code>grid</code> and corresponding supporting classes like
+              <code>col-2</code>, <code>col-3</code> and <code>col-4</code>
+            </p>
+          </div>
+          <div>
+            <h6 class="h6 my-m">2 Column Grid</h6>
+
+            <div class="example-container my-m mx-auto p-m br-m">
+              <div class="grid col-2 gap-1">
+                <div>
+                  <img src="https://picsum.photos/200" />
+                  <p class="text-center">Column 1</p>
+                </div>
+                <div>
+                  <img src="https://picsum.photos/200" />
+                  <p class="text-center">Column 2</p>
+                </div>
+              </div>
+            </div>
+            <div class="code-container">
+              <iframe
+                src="https://www.thiscodeworks.com/embed/623e122a2ef8dc0015ef5e7b"
+                style="width: 100%; height: 216px"
+                frameborder="0"
+              ></iframe>
+            </div>
+          </div>
+
+          <div>
+            <h6 class="h6 my-m">3 Column Grid</h6>
+            <div class="example-container my-m mx-auto p-m br-m">
+              <div class="grid col-3 gap-1">
+                <div>
+                  <img src="https://picsum.photos/200" />
+                  <p class="text-center">Column 1</p>
+                </div>
+                <div>
+                  <img src="https://picsum.photos/200" />
+                  <p class="text-center">Column 2</p>
+                </div>
+                <div>
+                  <img src="https://picsum.photos/200" />
+                  <p class="text-center">Column 3</p>
+                </div>
+              </div>
+            </div>
+            <div class="code-container">
+              <iframe
+                src="https://www.thiscodeworks.com/embed/623e125d2ef8dc0015ef5e7c"
+                style="width: 100%; height: 268px"
+                frameborder="0"
+              ></iframe>
+            </div>
+          </div>
+
+          <div>
+            <h6 class="h6 my-m">4 Column Grid</h6>
+            <div class="example-container my-m mx-auto p-m br-m">
+              <div class="grid col-4 gap-1">
+                <div>
+                  <img src="https://picsum.photos/200" />
+                  <p class="text-center">Column 1</p>
+                </div>
+                <div>
+                  <img src="https://picsum.photos/200" />
+                  <p class="text-center">Column 2</p>
+                </div>
+                <div>
+                  <img src="https://picsum.photos/200" />
+                  <p class="text-center">Column 3</p>
+                </div>
+                <div>
+                  <img src="https://picsum.photos/200" />
+                  <p class="text-center">Column 4</p>
+                </div>
+              </div>
+            </div>
+            <div class="code-container">
+              <iframe
+                src="https://www.thiscodeworks.com/embed/623e12882ef8dc0015ef5e7d"
+                style="width: 100%; height: 320px"
+                frameborder="0"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
