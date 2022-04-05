@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <title>Slider - inkUI</title>
+  </head>
+  <body>
+    <div class="wrapper mx-auto">
+      <header class="header px-m mx-xl">
+        <h1 class="h1 logo">ink</h1>
+        <nav>
+          <ul class="nav-links">
+            <li class="link h6 px-s">
+              <a class="link-dark" href="/docs/installation.html">Docs</a>
+            </li>
+            <li class="link h6 px-s">
+              <a class="link-dark" href="https://github.com/Tanay-J/inkUI"
+                >Github</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main-container p-l mx-auto my-l">
+        <aside class="main-nav">
+          <header>
+            <h6 class="h6">Get Started</h6>
+          </header>
+          <a class="comp-link my-xs" href="/docs/installation.html"
+            >Installation</a
+          >
+          <a class="comp-link my-xs" href="/docs/typography.html">Typography</a>
+          <hr />
+          <header>
+            <h6 class="h6">Components</h6>
+          </header>
+          <a class="comp-link my-xs" href="/docs/alert.html">Alert</a>
+          <a class="comp-link my-xs" href="/docs/avatar.html">Avatar</a>
+          <a class="comp-link my-xs" href="/docs/badge.html">Badge</a>
+          <a class="comp-link my-xs" href="/docs/button.html">Button</a>
+          <a class="comp-link my-xs" href="/docs/cards.html">Card</a>
+          <a class="comp-link my-xs" href="/docs/image.html">Image</a>
+          <a class="comp-link my-xs" href="/docs/input.html">Input</a>
+          <a class="comp-link my-xs" href="/docs/list.html">List</a>
+          <a class="comp-link my-xs" href="/docs/modal.html">Modal</a>
+          <a class="comp-link my-xs" href="/docs/navbar.html">Navbar</a>
+          <a class="comp-link my-xs" href="/docs/rating.html">Rating</a>
+          <a class="active my-xs" href="/docs/slider.html">Slider</a>
+          <a class="comp-link my-xs" href="/docs/snackbar.html">Snackbar</a>
+        </aside>
+        <section class="main-section px-m">
+          <div>
+            <h4 class="h4">Slider</h4>
+            <p class="my-s">
+              Sliders allow users to make selections from a range of values.
+              Sliders reflect a range of values along a bar, from which users
+              may select a single value
+            </p>
+          </div>
+          <div>
+            <h6 class="h6 my-m">Slider with steps</h6>
+            <p>
+              A stepped slider can be used for filtering with respect to price
+            </p>
+            <div class="slider-container text-center my-m py-l px-xl">
+              <input
+                type="range"
+                value="2"
+                min="0"
+                max="10"
+                step="2"
+                list="tickmarks"
+                class="slider"
+              />
+              <datalist id="tickmarks" class="slider-datalist">
+                <option value="0" label="0">0</option>
+                <option value="2" label="2">2</option>
+                <option value="4" label="4">4</option>
+                <option value="6" label="6">6</option>
+                <option value="8" label="8">8</option>
+                <option value="10" label="10">10</option>
+              </datalist>
+            </div>
+            <div class="code-container">
+              <iframe
+                src="https://www.thiscodeworks.com/embed/624c0646578f5f00150dc62d"
+                style="width: 100%; height: 177px"
+                frameborder="0"
+              ></iframe>
+            </div>
+          </div>
+          <div>
+            <h6 class="h6 my-m">Volume Slider</h6>
+            <p>A smooth slider can be used for Volume control</p>
+            <div class="example-container text-center my-m">
+              <label for="vol"><i class="fas fa-volume-up py-m"></i></label>
+              <input
+                type="range"
+                min="0"
+                max="100"
+                value="20"
+                id="vol"
+                class="py-m"
+              />
+            </div>
+            <div class="code-container">
+              <iframe
+                src="https://www.thiscodeworks.com/embed/624c0672578f5f00150dc62e"
+                style="width: 100%; height: 112px"
+                frameborder="0"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+  <script src="/docs/modal.js"></script>
+</html>

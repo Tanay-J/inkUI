@@ -1,0 +1,17 @@
+.slider-container {
+  width: 100%;
+  border: 1px solid var(--gray-light);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.slider {
+  width: 100%;
+  margin-top: 1rem;
+}
+.slider-datalist {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
