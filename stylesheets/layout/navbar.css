@@ -1,11 +1,15 @@
 
 
 .header{
-    /* width: 85%; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: var(--primary-dark);
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 .logo{
