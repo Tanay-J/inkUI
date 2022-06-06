@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+
     <link rel="stylesheet" href="/styles.css" />
-    <title>Image - inkUI</title>
+    <title>Rating - inkUI</title>
   </head>
   <body>
     <div class="wrapper mx-auto">
@@ -44,47 +49,65 @@
           <a class="comp-link my-xs" href="/docs/button.html">Button</a>
           <a class="comp-link my-xs" href="/docs/cards.html">Card</a>
           <a class="comp-link  my-xs" href="/docs/grid.html">Grid</a>
-          <a class="active my-xs" href="/docs/image.html">Image</a>
+          <a class="comp-link my-xs" href="/docs/image.html">Image</a>
           <a class="comp-link my-xs" href="/docs/input.html">Input</a>
           <a class="comp-link my-xs" href="/docs/list.html">List</a>
           <a class="comp-link my-xs" href="/docs/modal.html">Modal</a>
           <a class="comp-link my-xs" href="/docs/navbar.html">Navbar</a>
-          <a class="comp-link my-xs" href="/docs/rating.html">Rating</a>
+          <a class="active my-xs" href="/docs/rating.html">Rating</a>
           <a class="comp-link my-xs" href="/docs/slider.html">Slider</a>
           <a class="comp-link my-xs" href="/docs/snackbar.html">Snackbar</a>
         </aside>
         <section class="main-section px-m">
           <div>
-            <h4 class="h4">Image</h4>
+            <h4 class="h4">Rating</h4>
             <p class="my-s">
-              Images are an important part of any modern web application. The
-              visual information they deliver can completely change the user
-              experience.
+              Star rating is a used to indicate general perception of the given
+              product
             </p>
           </div>
           <div>
-            <h6 class="h6 my-m">Responsive Image</h6>
+            <h6 class="h6 my-m">Star Rating</h6>
+            <p>To take user's feedback about the product</p>
             <div class="example-container my-m mx-auto p-m br-m">
-              <img class="img-responsive" src="/assets/resp.jpg" />
+              <div class="rating-container text-s">
+                <input type="radio" name="rate" id="1star" />
+                <label for="1star"></label>
+                <input type="radio" name="rate" id="2star" />
+                <label for="2star"></label>
+                <input type="radio" name="rate" id="3star" />
+                <label for="3star"></label>
+                <input type="radio" name="rate" id="4star" />
+                <label for="4star"></label>
+                <input type="radio" name="rate" id="5star" />
+                <label for="5star"></label>
+              </div>
             </div>
             <div class="code-container">
               <iframe
-                src="https://www.thiscodeworks.com/embed/62067ee33d90130015398b40"
-                style="width: 100%; height: 99px"
+                src="https://www.thiscodeworks.com/embed/623dfac02ef8dc0015ef5e73"
+                style="width: 100%; height: 242px"
                 frameborder="0"
               ></iframe>
             </div>
           </div>
           <div>
-            <h6 class="h6 my-m">Circular Images</h6>
+            <h6 class="h6 my-m">Rating Badge</h6>
+            <p>To show product rating on product card</p>
             <div class="example-container my-m mx-auto p-m br-m">
-              <img class="img-circle" src="/assets/circ.jpg" />
-              <img class="img-circle" src="/assets/resp.jpg" />
+              <div class="rating-container">
+                <small class="text-success">(179 ratings)</small>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
             </div>
             <div class="code-container">
               <iframe
-                src="https://www.thiscodeworks.com/embed/62067f183d90130015398b41"
-                style="width: 100%; height: 138px"
+                src="https://www.thiscodeworks.com/embed/623dfafc2ef8dc0015ef5e74"
+                style="width: 100%; height: 177px"
                 frameborder="0"
               ></iframe>
             </div>

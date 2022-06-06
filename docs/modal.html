@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles.css" />
-    <title>Image - inkUI</title>
+    <title>Modal - inkUI</title>
   </head>
   <body>
     <div class="wrapper mx-auto">
@@ -44,47 +44,50 @@
           <a class="comp-link my-xs" href="/docs/button.html">Button</a>
           <a class="comp-link my-xs" href="/docs/cards.html">Card</a>
           <a class="comp-link  my-xs" href="/docs/grid.html">Grid</a>
-          <a class="active my-xs" href="/docs/image.html">Image</a>
+          <a class="comp-link my-xs" href="/docs/image.html">Image</a>
           <a class="comp-link my-xs" href="/docs/input.html">Input</a>
           <a class="comp-link my-xs" href="/docs/list.html">List</a>
-          <a class="comp-link my-xs" href="/docs/modal.html">Modal</a>
+          <a class="active my-xs" href="/docs/modal.html">Modal</a>
           <a class="comp-link my-xs" href="/docs/navbar.html">Navbar</a>
-          <a class="comp-link my-xs" href="/docs/rating.html">Rating</a>
+          <a class="comp-link  my-xs" href="/docs/rating.html">Rating</a>
           <a class="comp-link my-xs" href="/docs/slider.html">Slider</a>
           <a class="comp-link my-xs" href="/docs/snackbar.html">Snackbar</a>
         </aside>
         <section class="main-section px-m">
           <div>
-            <h4 class="h4">Image</h4>
+            <h4 class="h4">Modal</h4>
             <p class="my-s">
-              Images are an important part of any modern web application. The
-              visual information they deliver can completely change the user
-              experience.
+              Modal is a dialog box or popup window that is used to provide
+              important information to the user or prompt user to take necessary
+              actions
             </p>
           </div>
           <div>
-            <h6 class="h6 my-m">Responsive Image</h6>
-            <div class="example-container my-m mx-auto p-m br-m">
-              <img class="img-responsive" src="/assets/resp.jpg" />
+            <div class="example-container text-center my-m">
+              <button class="btn btn-primary my-m" id="displayModal">
+                Click Here
+              </button>
+              <div class="modal-wrapper hide">
+                <div class="modal-container p-m br-s text-left mx-auto my-l">
+                  <h3>Modal Header</h3>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <button class="btn btn-primary my-xs" id="saveModal">
+                    SAVE
+                  </button>
+                  <button class="btn my-xs" id="cancelModal">CANCEL</button>
+                </div>
+              </div>
             </div>
             <div class="code-container">
               <iframe
-                src="https://www.thiscodeworks.com/embed/62067ee33d90130015398b40"
-                style="width: 100%; height: 99px"
-                frameborder="0"
-              ></iframe>
-            </div>
-          </div>
-          <div>
-            <h6 class="h6 my-m">Circular Images</h6>
-            <div class="example-container my-m mx-auto p-m br-m">
-              <img class="img-circle" src="/assets/circ.jpg" />
-              <img class="img-circle" src="/assets/resp.jpg" />
-            </div>
-            <div class="code-container">
-              <iframe
-                src="https://www.thiscodeworks.com/embed/62067f183d90130015398b41"
-                style="width: 100%; height: 138px"
+                src="https://www.thiscodeworks.com/embed/623dc5c32ef8dc0015ef5e62"
+                style="width: 100%; height: 294px"
                 frameborder="0"
               ></iframe>
             </div>
@@ -93,4 +96,5 @@
       </main>
     </div>
   </body>
+  <script src="/docs/modal.js"></script>
 </html>
